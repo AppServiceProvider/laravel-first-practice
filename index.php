@@ -19,7 +19,7 @@ define('LARAVEL_START', microtime(true));
 if (file_exists($maintenance = __DIR__.'/storage/framework/maintenance.php')) {
     require $maintenance;
 }
-
+// aija directory change korsi same file localhost a kaj krsa but old file ta dora raksa
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
